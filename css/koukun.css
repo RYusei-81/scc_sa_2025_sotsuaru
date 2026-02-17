@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.yajirushi img{
+    height: 745px;
+    margin-left: 21%;
+}
+
+.koukun img{
+    height: 700px;
+    margin-top: 70px;
+    width: 600px;
+    margin-left: 650px;
+}
+
+nav .yajirushi img{
+    margin: 80px;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: -850px;
+}
+
+nav{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    font-family: serif;
+    margin: 30px;
+    padding: 0px;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}

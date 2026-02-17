@@ -1,0 +1,354 @@
+@charset "utf-8";
+body{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(47, 0, 255, 0.445);
+    color: white;
+    margin-top: 20px;
+    font-family: serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#check{
+    display: none;
+}
+
+label{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 130px;
+    height: 95px;
+    background-color: rgb(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+.h-line{
+    content: "";
+    width: 80px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+
+.h-line:nth-child(1){
+    top: 20px;
+}
+
+.h-line:nth-child(2){
+    top: 45px;
+}
+
+.h-line:nth-child(3){
+    top: 70px;
+}
+
+#check:checked ~ label .h-line:nth-child(1){
+    top:40px;
+    transform: rotate(45deg);
+    transition: all 0.5s;
+}
+
+#check:checked ~ label .h-line:nth-child(2){
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+}
+
+#check:checked ~ label .h-line:nth-child(3){
+    top: 40px;
+    transform: rotate(-45deg);
+    transition: all 0.5s;
+}
+
+.h-contents {
+    width: 310px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.507);
+    transition: all 0.5s;
+    padding-top: 75px;
+    padding-left: 50px;
+}
+
+#check:checked ~ .h-contents {
+    left: 0;
+}
+
+.h-contents .top a{
+    display: block;
+    margin: 3px auto;
+    font-size: 40px;
+    font-family:serif;
+    color: rgb(74, 228, 255);
+    margin-top: 2px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: -33px;
+}
+
+.h-contents .top a:hover{
+    text-decoration:none;
+    color: rgb(255, 0, 0);
+}
+
+.h-contents .item a{
+    display: block;
+    margin: 3px auto;
+    font-size: 25px;
+    font-family:serif;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.h-contents .item a:hover{
+    text-decoration:none;
+    color: rgb(112, 73, 255);
+}
+.ue hr{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+hr{
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+h1{
+    font-size: 100px;
+    font-family:serif;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+}
+
+
+.zentai{
+    width: 10%;
+    height: 15%;
+    top: 10%;
+    margin: 10%;
+}
+
+nav{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    font-family: serif;
+    margin: 30px;
+    padding: 0px;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a img{
+    width: 322px;
+    height: 350px;
+    border-radius: 20px;
+}
+nav a.home img{
+    width: 500px;
+}
+
+nav a .home .smork{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav .yajirushi img{
+    margin: 80px;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: -850px;
+}
+
+.koumoku img {
+    max-width: 500px;
+    height: 350px;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.koumoku{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.guri h2{
+    font-size: 40px;
+    font-family:serif;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.koumoku2 img {
+    max-width: 700px;
+    height: 600px;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.koumoku2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sai h2{
+    font-size: 40px;
+    font-family:serif;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.koumoku3 img {
+    max-width: 400px;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;}
+
+.koumoku3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.koumoku4 img {
+    max-width: 500px;
+    height: 350px;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.koumoku4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hau h2{
+    font-size: 40px;
+    font-family:serif;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.koumoku5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bou h2{
+    font-size: 40px;
+    font-family:serif;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.koumoku5 img {
+    max-width: 400px;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.koumoku6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.setsu h2{
+    font-size: 40px;
+    font-family:serif;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.koumoku6 img {
+    max-width: 400px;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+main{
+    max-width: 100%;
+    margin: 0%;
+    margin-top: 0%;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(15, 15, 15, 15);
+}

@@ -1,0 +1,1125 @@
+@charset "utf-8";
+
+body{
+    font-family:serif;
+    color:black;
+    margin: 0;
+    height: 0;
+   background-image: url("../img/shi.JPG");
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+
+
+.h-contents a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.koutyo{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 520px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.koutyo .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 420px;
+    font-weight: 800;
+    font-family: serif;
+    width: 700px;
+}
+
+.koutyo .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.koutyo .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 
+      3px 3px 0 #000, -3px -3px 0 #000,
+      -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.taiki{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 438px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.taiki .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 420px;
+    font-weight: 800;
+    font-family: serif;
+    width: 700px;
+}
+
+.taiki .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.taiki .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.yamada{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 438px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.yamada .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 400px;
+    font-weight: 800;
+    font-family: serif;
+    width: 650px;
+}
+
+.yamada .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.yamada .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.kazupi{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 438px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.kazupi .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 460px;
+    font-weight: 800;
+    font-family: serif;
+    width: 620px;
+}
+
+.kazupi .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.kazupi .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.tie{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 438px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.tie .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 420px;
+    font-weight: 800;
+    font-family: serif;
+    width: 650px;
+}
+
+.tie .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.tie .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.kaka{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 450px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.kaka .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 430px;
+    font-weight: 800;
+    font-family: serif;
+    width: 600px;
+}
+
+.kaka .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.kaka .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.masu{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 460px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.masu .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 440px;
+    font-weight: 800;
+    font-family: serif;
+    width: 620px;
+}
+
+.masu .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.masu .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.ryu{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 600px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.ryu .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 400px;
+    font-weight: 800;
+    font-family: serif;
+    width: 720px;
+}
+
+.ryu .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.ryu .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.fuji{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 610px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.fuji .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 390px;
+    font-weight: 800;
+    font-family: serif;
+    width: 710px;
+}
+
+.fuji .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.fuji .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.shouji{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 438px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.shouji .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 430px;
+    font-weight: 800;
+    font-family: serif;
+    width: 710px;
+}
+
+.shouji .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.shouji .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.tanaka{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 438px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.tanaka .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 460px;
+    font-weight: 800;
+    font-family: serif;
+}
+
+.tanaka .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.tanaka .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.uchino{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 720px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.uchino .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 390px;
+    font-weight: 800;
+    font-family: serif;
+    width: 710px;
+}
+
+.uchino .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.uchino .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.ito{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 438px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.ito .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 460px;
+    font-weight: 800;
+    font-family: serif;
+}
+
+.ito .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.ito .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.jimu{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 438px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.jimu .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 440px;
+    font-weight: 800;
+    font-family: serif;
+    width: 640px;
+}
+
+.jimu .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.jimu .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.takako{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 438px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.takako .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 460px;
+    font-weight: 800;
+    font-family: serif;
+    width: 720px;
+}
+
+.takako .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.takako .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.hayashi{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 438px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.hayashi .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 460px;
+    font-weight: 800;
+    font-family: serif;
+}
+
+.hayashi .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.hayashi .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.yuki{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 438px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.yuki .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 425px;
+    font-weight: 800;
+    font-family: serif;
+    width: 620px;
+}
+
+.yuki .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+.yuki .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.fukuda{
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 438px;
+    padding: 159px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.fukuda .message p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: -583px 0;
+    margin-bottom: 320px;
+    margin-left: 460px;
+    font-weight: 800;
+    font-family: serif;
+}
+
+.fukuda .imge img{
+    width: 390px;
+    height: 520px;
+    margin-left: -43px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 6px solid #000000;
+    padding: 5px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+}
+
+
+.fukuda .name{
+    font-size: 50pt;
+    font-family: serif;
+    margin: 0px;
+    margin-top: -130px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000,
+     -3px 3px 0 #000, 3px -3px 0 #000;
+}
+
+.panda img{
+    margin: -195px;
+    width: 245px;
+    height: 210px;
+    padding: 5px;
+    margin-top: -7px;
+    margin-left: 200px;
+    border-radius: 57px;
+}
+
+.panda2 img{
+    margin: -174px;
+    width: 245px;
+    height: 210px;
+    padding: 5px;
+    margin-top: -45px;
+    margin-left: 73%;
+    border-radius: 57px;
+    transform: scale(-1, 1);
+}
+
+.panda3 img{
+    margin: -213px;
+    width: 245px;
+    height: 210px;
+    padding: -8px;
+    margin-top: -45px;
+    margin-left: 1500px;
+    border-radius: 57px;
+    transform: scale(-1, 1);
+}
+
+.panda4 img{
+    margin: -195px;
+    width: 245px;
+    height: 210px;
+    padding: 5px;
+    margin-top: -7px;
+    margin-left: 125px;
+    border-radius: 57px;
+}
+
+.panda6 img{
+    margin: 2%;
+    width: 600px;
+    height: 700px;
+    top: 290px;
+    left: -120px;
+    position: fixed;
+    z-index: -1;
+}
+
+main {
+    max-width: 100%;
+    margin: 0%;
+    margin-top: 0%;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.senseimidashi{
+    font-size: 70pt;
+    font-family:serif;
+    margin: 0px;
+    margin-top: -2px;
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 6px rgb(71, 71, 71)
+}
+
+.zaikousei{
+    font-size: 60pt;
+    font-family: serif;
+    letter-spacing: -0.05px;
+    margin: 0px;
+    margin-top: -2px;
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 6px rgb(71, 71, 71)
+}
+
+.sen{
+    font-size: 68pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    margin-top: -15px;
+    margin-left: -6px;
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 6px rgb(71, 71, 71);
+}
+
+.sen2{
+    font-size: 68pt;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: -6px;
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 6px rgb(71, 71, 71);
+}
+
+hr{
+    height: 6px;
+    width: 1531px;
+    background-color: black;
+    margin-top: -28px;
+    margin-left: 9%;
+}
+        
+*{
+    margin: 0;
+    padding: 0;
+}
+#check{
+    display: none;
+}
+
+label{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 130px;
+    height: 130px;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 9999;
+}
+
+.h-line{
+    content: "";
+    width: 80px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.425);
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+
+.h-line:nth-child(1){
+    top: 20px;
+}
+
+.h-line:nth-child(2){
+    top: 45px;
+}
+
+.h-line:nth-child(3){
+    top: 70px;
+}
+
+#check:checked ~ label .h-line:nth-child(1){
+    top:40px;
+    transform: rotate(45deg);
+    transition: all 0.5s;
+}
+
+#check:checked ~ label .h-line:nth-child(2){
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+}
+
+#check:checked ~ label .h-line:nth-child(3){
+    top: 40px;
+    transform: rotate(-45deg);
+    transition: all 0.5s;
+}
+
+.h-contents {
+    width: 310px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.507);
+    transition: all 0.5s;
+    padding-top: 75px;
+    padding-left: 50px;
+}
+
+#check:checked ~ .h-contents {
+    left: 0;
+}
+
+.h-contents .top a{
+    display: block;
+    margin: 3px auto;
+    font-size: 40px;
+    font-family:serif;
+    color: rgb(0, 4, 255);
+    margin-top: 2px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.h-contents .top a:hover{
+    text-decoration:none;
+    color: rgb(255, 0, 0);
+}
+
+.h-contents .item a{
+    display: block;
+    margin: 3px auto;
+    font-size: 25px;
+    font-family: serif;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 800;
+}
+
+.h-contents .item a:hover{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    font-size: 30px;
+}
+
