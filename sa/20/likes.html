@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(270deg, #6ea0ff, #9bc6ff, #6ea0ff);
+            background-size: 600% 600%;
+            animation: gradientMove 12s ease infinite;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #2f6bff, #4d8dff);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #1f4ecc;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #c9d9ff;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+        }
+        .section-box {
+            padding: 20px;
+            margin-top: 30px;
+            background: #f4f6ff;
+            border-left: 5px solid #6a8cff;
+            border-radius: 10px;
+        }
+        .gallery {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .gallery img {
+            width: 30%;
+            border-radius: 10px;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            padding: 20px;
+            background: #bfd0ff;
+        }
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>力武桂史のホームページ</h1>
+        <p>個人紹介サイト</p>
+    </header>
+    
+    <nav>
+        <a href="index.html">ホーム</a>
+        <a href="likes.html">好きなこと</a>
+        <a href="hobby.html">趣味1</a>
+        <a href="aaaaa.html">趣味2</a>
+        <a href="kenkyu.html">自由研究</a>
+        
+    </nav>
+    
+    <div class="container">
+        <h2>ゲーム</h2>
+    
+        <ul class="game-list">
+            <li>APEX Legends</li>
+            <li>原神</li>
+            <li>ARK: Survival Evolved</li>
+        </ul>
+    
+        <div class="game-section">
+            <h3>APEX Legends</h3>
+    
+            <img src="oipa.webp"width="500" alt="APEX Legends" class="game-image">
+            <p>
+                スピード感のあるFPSが唯一でとても面白いです
+                約８０００時間プレイしており、今はこのゲームでのプロを目指しています。
+    
+            </p>
+        </div>
+    
+        <div class="game-section">
+            <h3>原神</h3>
+    
+            <!-- 原神の画像 -->
+            <img src="download.webp"width="500" alt="原神" class="game-image">
+    
+            <p>
+                世界観や音楽、キャラクターデザインがとても美しく、引き込まれます。
+            </p>
+        </div>
+    
+        <div class="game-section">
+            <h3>ARK</h3>
+    
+            <!-- ARKの画像 -->
+            <img src="OIP.webp"width="500" alt="ARK Survival Evolved" class="game-image">
+    
+            <p>
+                恐竜をテーマにしたサバイバル要素が特徴で、  
+                自由度の高いゲーム性が印象的です。
+                特にPVPは恐竜を使った対人ゲームでとても面白いです。
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
