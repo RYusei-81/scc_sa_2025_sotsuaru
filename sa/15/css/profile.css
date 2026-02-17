@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+body {
+    background-color: rgba(0,0,0,0.3);
+    background-image: url(../img/iruka2.jpg);
+    background-size: 180px 180px;
+}
+
+header {
+    max-width: 400px;
+    padding: 30px 30px;
+
+}
+
+.header-left a {
+    font-family: monospace;
+    color: rgb(37, 41, 163);
+    margin-right: 3px;
+    font-size: 25px;
+    padding: 10px 5px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.el_txt {
+    color: rgb(156, 158, 211);
+}
+
+h1 {
+    color: rgb(37, 41, 163);
+    text-align: center;
+    font-size: 44px;
+    border-bottom: dotted 3px;
+    padding-bottom: 15px;
+    letter-spacing: 20px;
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0%;
+    padding: 40px;
+    padding-bottom: 25px;
+    width: auto;
+    height: 50px;
+}
+
+h2 {
+    color: rgb(37, 41, 163);
+    line-height: 3.5;
+    text-align: center;
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0%;
+    padding-top: 18px;
+    font-size: 24px;
+}

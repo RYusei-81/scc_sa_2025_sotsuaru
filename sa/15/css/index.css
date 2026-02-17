@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/tokage2.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 330px;
+    background-position: 191px 522px;
+}
+
+header {
+    max-width: 300px;
+    padding: 30px 30px;
+
+}
+
+.header-left a {
+    font-family: monospace;
+    color: rgb(37, 41, 163);
+    margin-right: 3px;
+    font-size: 25px;
+    padding: 10px 5px;
+    font-weight: bold;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+table {
+    text-align: center;
+}
+
+.item {
+    color: rgb(37, 41, 163);
+    font-size: 22px;
+    font-weight: bold;
+    font-family: monospace;
+    display: flex;
+    margin-top: 26px;
+    gap: 134px;
+    justify-content: center;
+}

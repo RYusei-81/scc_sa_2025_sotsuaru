@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+body {
+    background-color: #fff;
+    background-image: url(../img/iruka2.jpg);
+    background-size: 180px 180px;
+}
+
+header {
+    max-width: 400px;
+    padding: 30px 30px;
+
+}
+
+.header-left a {
+    font-family: monospace;
+    color: rgb(37, 41, 163);
+    margin-right: 3px;
+    font-size: 25px;
+    padding: 10px 5px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.el_txt {
+    color: rgb(156, 158, 211);
+}
+
+h1 {
+    color: rgb(37, 41, 163);
+    text-align: center;
+    font-size: 44px;
+    border-bottom: dotted 3px;
+    padding-bottom: 15px;
+    letter-spacing: 20px;
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0%;
+    padding: 40px;
+    padding-bottom: 25px;
+    width: auto;
+    height: 50px;
+}
+
+h2 {
+    color: rgb(37, 41, 163);
+    font-size: 32px;
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.primary1 {
+    width: 300px;
+    height: 120px;
+    color: rgb(77, 124, 255);
+    background-color: rgb(214, 226, 255);
+    border: dotted 5px rgb(77, 124, 255);
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20px;
+    font-family: Courier;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.primary2 {
+    width: 270px;
+    height: 270px;
+    color: rgb(230, 202, 202);
+    background-color: rgb(100, 30, 30);
+    border: dotted 5px rgb(230, 202, 202);
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20px;
+    font-family: Courier;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.primary3 {
+    width: 270px;
+    height: 270px;
+    color: rgb(209, 193, 104);
+    background-color: #252422;
+    border: dotted 5px rgb(209, 193, 104);
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20px;
+    font-family: Courier;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.bold1 {
+    color: rgb(230, 202, 202);
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.bold2 {
+    color: rgb(209, 193, 104);
+    font-size: 26px;
+    font-weight: bold;
+}
