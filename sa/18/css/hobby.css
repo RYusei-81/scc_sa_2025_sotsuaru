@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+.jisage{
+    padding:1cm
+    
+}
+
+
+
+
+
+
+a{
+    font-style: italic;
+color:rgb(253, 152, 0);
+background-color: tomato;
+}
+
+a:hover{
+    color:rgb(255, 241, 41);
+    background-color: rgb(255, 0, 170);
+}
+
+.float{
+    width: 500px;
+    float:left;
+    text-align: center;
+    border: solid 7px rgb(209, 0, 87);
+}
+
+.clear{
+    text-align: center;
+    width: 1000px;
+    clear: both;
+}
+
+img{
+    height: 500px;
+  
+}
+
+.oyatyuou{
+    text-align: center;
+    
+    }
+     
+    .kotyuou{
+        display: inline-block;
+        border: solid 7px #123;
+    }
+
+    .anime{
+        background-color: rgb(185, 0, 0);
+        border-top: solid 5px #123;
+        font-size: 28px;
+    }
+
+    .game{
+        background-color: rgb(168, 0, 168);
+        border-top: solid 5px #123;
+        font-size: 28px;
+    }
+
+.eren{
+    background-color: deeppink;
+    font-size: 30px;
+    color: #000;
+}
+
+.sinon{
+    background-color: #70fff3;
+    font-size: 30px;
+    color: #000;
+}
+
+.giru{
+    background-color: gold;
+    font-size: 30px;
+    color: #ff2f2f;
+}
+
+.franchouchou{
+    background-color:#ff1b67;    font-size: 30px;
+    color: yellow;
+}
+
+.btr{
+    background-color: #ffaaaa;
+    font-size: 30px;
+    color: #ff1b67;
+}
+
+.sonota{
+    border-top: solid 5px #123;
+    border-bottom: #123 solid 5px;
+    
+}
+.karaoke{
+    background-color: rgb(255, 17, 0);
+    font-size: 30px;
+    color: #fff;
+}
+
+
+
+.kyudo{
+    background-color: rgb(27, 230, 0);
+    font-size: 30px;
+    color: #000;
+
+}
+
+
+    body{
+        background-color: rgb(80, 80, 80);
+        color: #f2ff7b;
+        
+    }
+
+    .osi{
+        font-size: 35px;
+    }
+
+.hobby-ko{
+font-size: 20px;
+}
+
+.sinario{
+    height:300px;
+}

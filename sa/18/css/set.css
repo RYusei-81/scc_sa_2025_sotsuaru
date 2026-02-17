@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+.big-pic{
+    
+
+    display: block;
+    margin: auto;
+    width: 1000px;
+    height: auto;
+}
+
+.tibi-pic{
+    display:block;
+    margin: auto;
+    width:300px;
+    height:auto;
+}
+
+a{
+    font-style: italic;
+color:rgb(253, 152, 0);
+background-color: tomato;
+}
+
+a:hover{
+    color:rgb(255, 241, 41);
+    background-color: rgb(255, 0, 170);
+}
+
+body{
+    margin:auto;
+    background-color: rgb(112, 112, 112);
+    color: #f2ff7b;
+
+}
+
+.jisage{
+    padding:1cm
+    
+}
+
+
+
+a{
+    font-style: italic;
+}
+
+
+
+
+
+.oyatyuou{
+text-align: center;
+
+}
+ 
+.kotyuou{
+    display: inline-block;
+    border: solid 7px #123;
+}
+
+img{
+    height: 500px;
+}
+
+h3{
+    font-size: 30px;
+    
+}
+
+h4{
+    border-top: #123 5px solid;
+    
+    background-color: green;
+}
