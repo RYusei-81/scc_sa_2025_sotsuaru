@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+body{
+    max-width: 1440px;
+    justify-content: center;
+    margin: auto;
+    background-image: url(../img/haikei.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-color: #C6F8FF;
+    background-repeat: no-repeat;
+}
+.top{
+display: flex;
+background-color: #FFFFE0;
+padding: 5px;
+justify-content: center;
+background-size: 100vw auto;
+background-repeat: no-repeat;
+background-position: center top;
+
+}
+
+.bo{
+    
+background-color: #AFEEEE;
+border: solid 4px #4169E1;
+margin: 5px;
+padding: 15px;
+font-weight: bold;
+
+}
+.bo:hover{
+    color: #fff;
+    background-color: #74f1bd;
+
+}
+
+a{
+    text-decoration: none;
+}
+.bo1{
+    
+    background-color: #AFEEEE;
+    border: solid 4px #4169E1;
+    margin: 5px;
+    padding: 15px;
+    font-weight: bold;
+    padding-right: .5em;
+    width: fit-content;
+    font-size: 8px;
+    }
+
+h1{
+background-color: lightskyblue;
+text-align: center;
+
+}
+
+h2{
+    padding: 0.5em;/*文字周りの余白*/
+    color: #010101;/*文字色*/
+    background: #eaf3ff;/*背景色*/
+    border-bottom: solid 3px #516ab6;/*下線*/
+    padding-right: .5em;
+    width: fit-content;
+}
+
+h3{
+    border-left: #066 5px solid;
+    border-bottom: #066 2px double;
+    width: fit-content;
+    padding-right: .5em;
+}
+
+h4{
+color: rgb(248, 153, 169);
+font-size:110%;
+
+}
+
+h5{
+    border-left: #066 5px solid;
+    border-bottom: #066 2px double;
+    background-color: lightblue;
+}
+
+.slide{
+position: relative;
+overflow: hidden;
+width: 495px;
+height:880px;
+margin: auto;
+background: #fff
+
+}
+
+.slide img{
+display: block;
+position: absolute;
+width: inherit;
+left:100%;
+animation: slide-anime 25s ease infinite;
+
+}
+
+.slide img:nth-of-type(1) {animation-delay: 0s;}
+.slide img:nth-of-type(2) {animation-delay: 5s;}
+.slide img:nth-of-type(3) {animation-delay: 10s;}
+.slide img:nth-of-type(4) {animation-delay: 15s;}
+.slide img:nth-of-type(5) {animation-delay: 20s;}
+
+@keyframes slide-anime{
+0%{left:100%;}
+2%{left:0;}
+18%{left:0;}
+20%{left: -100%;}
+100%{left: -100%;}
+}
+
+#btn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.tanzyoubi{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.under{
+    background:linear-gradient(transparent 50%, #a8eaff 50%) ;
+    font-size: 2vw;
+}
+
+.zyuyou{
+font-size:large;
+font-weight:bold;
+}
+
+.migi{
+    float:left;
+}
+
+#migi{
+    float: left;
+}
+
+.migi2{
+    clear: both;
+}
+.image{
+    width: 30px;
+    height: 20px;
+    display: block;
+}
+
+.image1{
+    max-width: 50%;
+    height: auto;
+    float: right;
+}
+.image2{
+    max-width: 50%;
+    height: auto;
+    float: left;
+}
