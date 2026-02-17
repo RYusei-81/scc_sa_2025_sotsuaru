@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/*全体*/
+.container{
+    font-family: serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1024px;  
+    min-height: 950px;  
+    background-color: rgb(64, 64, 126);
+    margin: auto;
+}
+
+/*メイン*/
+.bgc{
+    background-color: #444444;
+    color: rgb(255, 255, 255);
+    margin: 16px 30px;
+    width: 400px;
+    height: 255px;
+    padding: 10px;
+    border: outset 5px white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(255, 255, 255);
+}
+.bgc>h1{
+    margin: 0;
+}
+.bgc:hover{
+    background-color: black;
+}
+img{
+    width: 325px;
+    height: 206px;
+    margin: 0 auto;
+}
+
+/*トップタイトル*/
+#top{
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0px;
+    background-color: #444444;
+    color: rgb(255, 255, 255);
+    border: outset 5px white;
+}
+#top>h1{
+    text-align: center;
+    margin-top: 5px;
+}
+#name{
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 50px;
+    background-color: #444444;
+    color: rgb(255, 255, 255);
+    border: outset 5px white;
+}
+#name>p{
+    margin: 4px;
+}
+
+/*フッター*/
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #444444;
+    color: rgb(255, 255, 255);
+    border: outset 5px white;
+    margin: 0;
+}

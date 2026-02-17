@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/*全体*/
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    max-width: 1440px;
+    height: 865px;
+    font-family: serif;
+    margin: auto;
+    background-color: #EAD8C0;
+}
+
+/*見出し*/
+#midashi{
+    width: 80%;
+    height: 190px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #bf9461;
+    text-shadow: 2px 3px 3px #593509;
+}
+#midashi>h1{
+    margin-top: 69px;
+}
+
+/*名前*/
+#name{
+    width: 20%;
+    height: 190px;
+    background-color: #d7b991;
+    text-align: center;
+}
+#name>p{
+    color: rgb(255, 255, 255);
+    margin-top: 66px;
+    font-size: 20px;
+    text-shadow: 2px 3px 3px #593509;
+}
+
+/*右側*/
+#leht{
+    width: 47%;
+    margin: 0 20px 0 0;
+}
+
+/*趣味*/
+#syumi{
+    width: 97%;
+    height: 241px;
+    margin: 40px 20px;
+    background-color: #fff8e3;
+    color: #593509;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px #97764d;
+}
+#syumi>h1{
+    margin: 10px 0 -10px 0px;
+}
+#syumi>p{
+    font-size: 18px;
+    padding: 0 50px;
+    margin-top: 5px;    
+}
+
+/*最近ハマっていること*/
+#hamaru{
+    width: 97%;
+    height: 241px;
+    margin: 40px 20px;
+    background-color: #fff8e3;
+    color: #593509;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px #97764d;
+}
+#hamaru>h1{
+    margin: 10px 0 -10px 0px;
+}
+#hamaru>p{
+    font-size: 18px;
+    padding: 0 50px;
+    margin-top: 15px;
+}
+
+/*特技*/
+#tokugi{
+    width: 47%;
+    height: 521px;
+    margin: 40px 20px 40px;
+    background-color: #fff8e3;
+    color: #593509;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px #97764d;
+}
+#tokugi>h1{
+    margin-top: 130px;
+    margin-bottom: -10px;
+}
+#tokugi>p{
+    font-size: 18px;
+    padding: 0 130px
+}
+
+/*フッター*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    background-color: #bf9461;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 3px #593509;
+}
+footer>a{
+    text-decoration: none;
+}
+footer>a>p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 3px #593509;
+    color: rgb(255, 255, 255);
+}
+footer>p{
+    margin: 19px 19px 0 0;
+    font-size: 20px;
+}

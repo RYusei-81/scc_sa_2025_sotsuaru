@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/*全体*/
+.container{
+    font-family: serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1024px;  
+    min-height: 950px;  
+    background-color: rgb(45, 45, 88);
+    margin: auto;
+}
+
+/*トップタイトル*/
+#top{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0px;
+    background-color: #444444;
+    color: rgb(255, 255, 255);
+    border: outset 5px white;
+}
+#top>h1{
+    text-align: center;
+    margin-top: 25px;
+}
+#name{
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 50px;
+    background-color: #444444;
+    color: rgb(255, 255, 255);
+    border: outset 5px white;
+}
+#name>p{
+    margin: 4px;
+}
+
+/*メイン*/
+.bgc{
+    background-color: #444444;
+    color: rgb(255, 255, 255);
+    margin: 16px 30px;
+    width: 400px;
+    height: 255px;
+    padding: 10px;
+    border: outset 5px white;
+    text-align: center;
+}
+.bgc>h1{
+    margin: 0;
+}
+.bgc>p{
+    font-size: 17px;
+}
+img{
+    width: 401px;
+    height: 259px;
+    margin: auto;
+}
+
+#kanso{
+    background-color: #444444;
+    color: rgb(255, 255, 255);
+    margin: 16px 30px;
+    width: 888px;
+    height: 286px;
+    padding: 10px;
+    border: outset 5px white;
+    text-align: center;
+}
+#kanso>p{
+    font-size: 17px;
+    line-height: 122px;
+}
+
+.b{
+    background-color: #444444;
+    color: rgb(255, 255, 255);
+    margin: 16px 30px;
+    width: 888px;
+    height: 112px;
+    padding: 10px;
+    border: outset 5px white;
+    text-align: center;
+}
+
+/*最後に*/
+#end>h1{
+    margin: 38px;
+}
+#end>p{
+    margin: 38px;
+    line-height: 63px;
+}
+
+/*フッター*/
+footer{
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    background-color: #444444;
+    color: rgb(255, 255, 255);
+    border: outset 5px white;
+    margin-bottom: 0;
+}
+footer>a>p{
+    margin-top: 13px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:visited{
+    color: rgb(255, 255, 255);
+}

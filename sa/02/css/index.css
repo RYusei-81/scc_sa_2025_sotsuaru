@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/*全体*/
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    max-width: 1440px;
+    height: 865px;
+    font-family: serif;
+    margin: auto;
+    background-color: #EAD8C0;
+}
+
+/*見出し*/
+#midashi{
+    width: 80%;
+    height: 190px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #bf9461;
+    text-shadow: 2px 3px 3px #593509;
+}
+#midashi>h1{
+    margin-top: 69px;
+}
+
+/*名前*/
+#name{
+    width: 20%;
+    height: 190px;
+    background-color: #d7b991;
+    text-align: center;
+}
+#name>p{
+    color: rgb(255, 255, 255);
+    margin-top: 66px;
+    font-size: 20px;
+    text-shadow: 2px 3px 3px #593509;
+}
+
+/*画像*/
+#img{
+    width: 75%;
+    height: 500px;
+    margin: 50px 5% 50px 0;
+    background-color: rgb(27, 27, 27);
+    /*border: outset 7px white;*/
+}
+img{
+    width: 100%;
+    height: 500px;
+}
+
+/*メニュー*/
+#m{
+    width: 20%;
+    height: 500px;
+    margin: 50px 0;
+    padding: 0 ;
+    background-color: #fff8e3;
+    font-size: 25px;
+    text-align-last: justify;
+    text-justify: inter-ideograph;
+}
+#m>h1{
+    font-size: 30px;
+    padding: 0 75px;
+    margin-top: 15px;
+    color: #593509;
+    /*
+    margin: 17px 0 0 0;
+    background-color: #e6be8d;
+    padding-bottom: 8px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 3px #593509;
+    border: solid 2px #ad6812;
+    */
+}
+hr{
+    margin: 0;
+}
+ul{
+    padding: 0 50px;
+}
+li{
+    margin: 45px auto;
+    list-style: none;
+}
+li>a:hover{
+    color: white;
+    text-shadow: 0px 1px 1px #3b2509;
+    transition: 0.5s;
+}
+
+/*aタグ*/
+a{
+    color: #593509;
+}
+a:visited{
+    color: #593509;
+}
+
+/*フッター*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    background-color: #bf9461;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 3px #593509;
+}
+footer>a{
+    text-decoration: none;
+}
+footer>a>p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 3px #593509;
+    color: rgb(255, 255, 255);
+}
+footer>p{
+    margin: 19px 19px 0 0;
+    font-size: 20px;
+}

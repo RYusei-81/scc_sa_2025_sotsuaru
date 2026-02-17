@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/*全体*/
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    max-width: 1440px;
+    height: 865px;
+    font-family: serif;
+    margin: auto;
+    background-color: #EAD8C0;
+}
+
+/*見出し*/
+#midashi{
+    width: 80%;
+    height: 190px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #bf9461;
+    text-shadow: 2px 3px 3px #593509;
+}
+#midashi>h1{
+    margin-top: 69px;
+}
+
+/*名前*/
+#name{
+    width: 20%;
+    height: 190px;
+    background-color: #d7b991;
+    text-align: center;
+}
+#name>p{
+    color: rgb(255, 255, 255);
+    margin-top: 66px;
+    font-size: 20px;
+    text-shadow: 2px 3px 3px #593509;
+}
+
+/*年齢・出身*/
+#syokai{
+    width: 100%;
+    height: 250px;
+    margin: 40px 20px 0;
+    background-color: #fff8e3;
+    color: #593509;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px #97764d;
+}
+#syokai>h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#syokai>p{
+    
+    font-size: 18px;
+}
+
+/*プロフィール*/
+#prf{
+    width: 47%;
+    height: 230px;
+    margin: 40px 20px;
+    background-color: #fff8e3;
+    color: #593509;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px #97764d;
+}
+#prf>h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#prf th{
+    text-align-last: justify;
+}
+
+/*経歴・学歴*/
+#keireki{
+    width: 47%;
+    height: 230px;
+    margin: 40px 20px;
+    background-color: #fff8e3;
+    color: #593509;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px #97764d;
+}
+#keireki>h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+table{
+    margin: 0 auto;
+}
+
+/*フッター*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    background-color: #bf9461;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 3px #593509;
+}
+footer>a{
+    text-decoration: none;
+}
+footer>a>p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 3px #593509;
+    color: rgb(255, 255, 255);
+}
+footer>p{
+    margin: 19px 19px 0 0;
+    font-size: 20px;
+}
