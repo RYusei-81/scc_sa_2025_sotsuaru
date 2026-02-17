@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+a{
+
+  font-size: 20px;
+  color: grey;
+  text-decoration: none;
+
+}
+
+a:hover{
+
+  color: aliceblue;
+  background-color:gray;
+
+}
+
+body{
+
+  background-color:white ;
+
+}
+
+h2{
+
+  background-color: pink;
+  padding: 30px;
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  
+  justify-content:space-around;
+  color: gray;
+  
+}
+
+h3{
+
+  display: flex;
+  
+
+}
+
+container{
+
+  display: flex;
+  margin-bottom: 20px;
+  
+
+}
+
+div{
+
+  color: gray;
+
+}
+
+p{
+
+  
+  text-align: center;
+  
+
+}
