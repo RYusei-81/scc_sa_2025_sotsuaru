@@ -1,0 +1,42 @@
+@charset "utf-8";
+header{
+    background-image: radial-gradient(circle, blue,yellow ,red)
+}
+body{
+    text-align: center;
+    background-image: radial-gradient(circle, blue,yellow ,red,cyan,OrangeRed,purple)
+}
+nav ul{
+    text-align: center;
+    width: 1000px; margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    background-color: #ff8c00;
+
+}
+nav a{
+    display: block;
+    width: 140px;
+}
+nav a:hover{
+    background-color: #ff3300;
+}
+footer{
+    background-color: #000000;
+    padding: 10px;
+    font: 12px sans-serit;
+    text-align: right;
+    color: #ffffff;
+}
+main{
+    background-color: #ffffff;
+}
+body{
+    width:100% ;
+    margin-left:auto;
+    margin-right:auto;
+}
+form{
+    margin-bottom: 50px;
+    padding: 100px;
+}
