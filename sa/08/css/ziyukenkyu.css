@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body{
+    background-color:rgb(207, 205, 205);
+    text-align:center
+        
+}
+h1{
+    font-size:70px;
+}
+h2{
+    font-size:40px;
+}
+
+a{
+    text-decoration:none;
+    color: rgb(255, 152, 207);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    background-color: black;
+    width: 18%;
+    text-align: center;
+    font-size :40px;
+}
